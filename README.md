@@ -26,4 +26,4 @@ Visit the url. The url will be your domain path and after that the hash http://l
 ### Step four
 
 Remove the url with the `removeId` that is given back in the create call. 
-The body field name is `remove_id` to the url http://localhost:3000/delete.
+The body field name is `remove_id` to the url http://localhost:3000/urls/delete.
