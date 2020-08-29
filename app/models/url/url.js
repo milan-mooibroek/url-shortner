@@ -18,8 +18,8 @@ module.exports = {
         await database.insert(collection, urlModal);
         return urlModal;
     },
-    delete: async (removeId) => {
-    return await database.delete(collection, {removeId: removeId});
+    delete: async (match) => {
+    return await database.delete(collection, match);
     },
     find: async (match) => {
         const model = await database.find(collection, match);
