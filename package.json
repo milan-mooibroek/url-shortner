@@ -16,6 +16,7 @@
     "mongodb": "^3.6.0",
     "morgan": "~1.9.1",
     "shortid": "^2.2.15",
+    "string-code-from-number": "^1.0.1",
     "valid-url": "^1.0.9"
   }
 }
